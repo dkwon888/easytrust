@@ -1,0 +1,163 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum CaseStatus {
+  ACCOUNT_CREATED
+  PAYMENT_PENDING
+  PAYMENT_COMPLETE
+  QUESTIONNAIRE_IN_PROGRESS
+  QUESTIONNAIRE_COMPLETE
+  DOCUMENTS_GENERATING
+  DOCUMENTS_GENERATED
+  ATTORNEY_REVIEW
+  CHANGES_REQUESTED
+  ATTORNEY_APPROVED
+  SENT_TO_CLIENT
+  AWAITING_NOTARIZED_DOCS
+  DOCS_RECEIVED
+  DOCS_SCANNED
+  DOCS_UPLOADED
+  BINDER_MAILED
+  COMPLETE
+}
+
+enum UserRole {
+  CLIENT
+  ATTORNEY
+  ADMIN
+}
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String?
+  passwordHash  String?
+  role          UserRole  @default(CLIENT)
+  preferredLang String    @default("en")
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  accounts      Account[]
+  sessions      Session[]
+  case          Case?
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Case {
+  id                String     @id @default(cuid())
+  userId            String     @unique
+  user              User       @relation(fields: [userId], references: [id])
+  status            CaseStatus @default(ACCOUNT_CREATED)
+  caseNumber        String     @unique @default(cuid())
+  createdAt         DateTime   @default(now())
+  updatedAt         DateTime   @updatedAt
+
+  payment           Payment?
+  questionnaire     Questionnaire?
+  documents         Document[]
+  shipments         Shipment[]
+  notes             CaseNote[]
+  returnTrackingNum String?
+  outboundTrackingNum String?
+  dropboxLink       String?
+  executedDocPath   String?
+  attorney_notes    String?    @db.Text
+}
+
+model Payment {
+  id              String   @id @default(cuid())
+  caseId          String   @unique
+  case            Case     @relation(fields: [caseId], references: [id])
+  stripePaymentId String?
+  stripeSessionId String?
+  amount          Int
+  currency        String   @default("usd")
+  status          String   @default("pending")
+  paidAt          DateTime?
+  createdAt       DateTime @default(now())
+}
+
+model Questionnaire {
+  id        String   @id @default(cuid())
+  caseId    String   @unique
+  case      Case     @relation(fields: [caseId], references: [id])
+  data      Json
+  completed Boolean  @default(false)
+  signedAt  DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Document {
+  id          String   @id @default(cuid())
+  caseId      String
+  case        Case     @relation(fields: [caseId], references: [id])
+  type        String
+  fileName    String
+  filePath    String
+  isExecuted  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+}
+
+model Shipment {
+  id            String   @id @default(cuid())
+  caseId        String
+  case          Case     @relation(fields: [caseId], references: [id])
+  direction     String
+  carrier       String?
+  trackingNum   String?
+  labelUrl      String?
+  status        String   @default("pending")
+  shippedAt     DateTime?
+  deliveredAt   DateTime?
+  createdAt     DateTime @default(now())
+}
+
+model CaseNote {
+  id        String   @id @default(cuid())
+  caseId    String
+  case      Case     @relation(fields: [caseId], references: [id])
+  authorId  String
+  content   String   @db.Text
+  isInternal Boolean @default(true)
+  createdAt DateTime @default(now())
+}

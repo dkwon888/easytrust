@@ -1,0 +1,479 @@
+{
+  "nav": {
+    "home": "Home",
+    "howItWorks": "How It Works",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "signIn": "Sign In",
+    "getStarted": "Get Started",
+    "dashboard": "Dashboard",
+    "signOut": "Sign Out"
+  },
+  "hero": {
+    "badge": "Attorney-Guided Estate Planning",
+    "title": "Protect Your Family's Future",
+    "subtitle": "Professional revocable living trust packages prepared by a licensed California attorney — from the comfort of your home.",
+    "cta": "Start Your Trust Package",
+    "secondaryCta": "Learn More",
+    "features": {
+      "licensed": "California Licensed Attorney",
+      "bilingual": "English & Korean Service",
+      "complete": "Complete Document Package",
+      "secure": "Secure & Confidential"
+    }
+  },
+  "whatYouGet": {
+    "title": "Complete Estate Planning Package",
+    "subtitle": "Everything you need to protect your assets and provide for your loved ones",
+    "documents": {
+      "trust": {
+        "name": "Revocable Living Trust",
+        "desc": "Avoids probate and provides seamless asset transfer to your beneficiaries"
+      },
+      "poa": {
+        "name": "Durable Power of Attorney",
+        "desc": "Designates someone to manage your finances if you become incapacitated"
+      },
+      "ahcd": {
+        "name": "Advance Health Care Directive",
+        "desc": "Specifies your healthcare wishes and designates a healthcare agent"
+      },
+      "hipaa": {
+        "name": "HIPAA Authorization",
+        "desc": "Authorizes access to your medical information by designated individuals"
+      },
+      "will": {
+        "name": "Pour-Over Will",
+        "desc": "Ensures any assets outside your trust are transferred into it upon your passing"
+      },
+      "certificate": {
+        "name": "Certificate of Trust",
+        "desc": "A summary document that proves your trust exists without revealing private details"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "Simple, Guided Process",
+    "subtitle": "We handle the complexity so you can focus on what matters",
+    "steps": {
+      "1": {
+        "title": "Create Account & Pay",
+        "desc": "Register securely and pay the one-time flat fee"
+      },
+      "2": {
+        "title": "Complete Questionnaire",
+        "desc": "Answer guided questions about your family, assets, and wishes — plus sign your engagement letter"
+      },
+      "3": {
+        "title": "Attorney Review",
+        "desc": "Your attorney reviews and customizes your documents, or requests clarification"
+      },
+      "4": {
+        "title": "Sign & Notarize",
+        "desc": "Print your package, sign with a notary, and mail back with our prepaid label"
+      },
+      "5": {
+        "title": "Receive Your Binder",
+        "desc": "We scan, upload to your secure Dropbox, and mail back a professionally bound original"
+      }
+    }
+  },
+  "pricing": {
+    "title": "Simple, Transparent Pricing",
+    "price": "$1,500",
+    "period": "one-time flat fee",
+    "includes": "Everything included:",
+    "features": [
+      "Complete 6-document estate planning package",
+      "Licensed California attorney preparation",
+      "Attorney review and approval",
+      "Unlimited revisions during intake",
+      "Prepaid return shipping label",
+      "Document scanning and secure Dropbox upload",
+      "Professionally bound original binder returned",
+      "English and Korean language support"
+    ],
+    "cta": "Get Started Today"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {
+        "q": "Do I need to come to your office?",
+        "a": "No. The entire process is handled online and by mail. You will need to have your documents notarized locally, which we will guide you through."
+      },
+      {
+        "q": "How long does the process take?",
+        "a": "Typically 2-4 weeks from questionnaire completion to receiving your finalized binder, depending on attorney review time and notarization scheduling."
+      },
+      {
+        "q": "Is this a real attorney-client relationship?",
+        "a": "Yes. You sign an engagement letter establishing a formal attorney-client relationship with our licensed California attorney. All communications are confidential."
+      },
+      {
+        "q": "What if I need changes after submitting?",
+        "a": "You can request changes at any time before the documents are finalized. After attorney review, we will let you know if we need more information."
+      },
+      {
+        "q": "Is my information secure?",
+        "a": "Yes. All data is encrypted, and your final documents are stored in a password-protected Dropbox folder shared only with you."
+      },
+      {
+        "q": "Do you offer Korean language service?",
+        "a": "Yes. Our entire intake process, questionnaire, and client communications are available in Korean."
+      }
+    ]
+  },
+  "auth": {
+    "signIn": {
+      "title": "Sign In to Your Account",
+      "email": "Email Address",
+      "password": "Password",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "forgotPassword": "Forgot password?"
+    },
+    "signUp": {
+      "title": "Create Your Account",
+      "name": "Full Name",
+      "email": "Email Address",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "terms": "By creating an account, you agree to our Terms of Service and Privacy Policy."
+    }
+  },
+  "dashboard": {
+    "title": "My Trust Package",
+    "welcome": "Welcome",
+    "caseNumber": "Case Number",
+    "status": "Current Status",
+    "progress": "Progress",
+    "nextStep": "Next Step",
+    "steps": {
+      "ACCOUNT_CREATED": "Account Created",
+      "PAYMENT_PENDING": "Payment Pending",
+      "PAYMENT_COMPLETE": "Payment Complete",
+      "QUESTIONNAIRE_IN_PROGRESS": "Intake In Progress",
+      "QUESTIONNAIRE_COMPLETE": "Intake Complete",
+      "DOCUMENTS_GENERATING": "Generating Documents",
+      "DOCUMENTS_GENERATED": "Documents Ready for Review",
+      "ATTORNEY_REVIEW": "Under Attorney Review",
+      "CHANGES_REQUESTED": "Changes Requested",
+      "ATTORNEY_APPROVED": "Attorney Approved",
+      "SENT_TO_CLIENT": "Package Sent to You",
+      "AWAITING_NOTARIZED_DOCS": "Awaiting Your Notarized Documents",
+      "DOCS_RECEIVED": "Documents Received",
+      "DOCS_SCANNED": "Documents Scanned",
+      "DOCS_UPLOADED": "Documents Uploaded to Dropbox",
+      "BINDER_MAILED": "Binder Mailed to You",
+      "COMPLETE": "Complete"
+    },
+    "actions": {
+      "pay": "Proceed to Payment",
+      "startQuestionnaire": "Start Questionnaire",
+      "continueQuestionnaire": "Continue Questionnaire",
+      "viewDocuments": "View Documents",
+      "trackShipment": "Track Shipment"
+    },
+    "messages": {
+      "ACCOUNT_CREATED": "Your account is set up. Please proceed to payment to begin.",
+      "PAYMENT_COMPLETE": "Payment received. Please complete your intake questionnaire.",
+      "QUESTIONNAIRE_COMPLETE": "Your questionnaire is submitted. We are preparing your documents.",
+      "ATTORNEY_REVIEW": "Your documents are under attorney review. We will notify you when ready.",
+      "CHANGES_REQUESTED": "Your attorney has requested additional information. Please review the notes below.",
+      "ATTORNEY_APPROVED": "Your documents have been approved and will be mailed to you shortly.",
+      "SENT_TO_CLIENT": "Your document package is on its way! Please sign with a notary and mail back using the prepaid label.",
+      "AWAITING_NOTARIZED_DOCS": "We are waiting for your notarized documents. Use the prepaid label included in your package.",
+      "DOCS_RECEIVED": "We have received your notarized documents. We are processing them now.",
+      "DOCS_UPLOADED": "Your executed documents have been uploaded to your secure Dropbox folder.",
+      "BINDER_MAILED": "Your professional binder is on its way!",
+      "COMPLETE": "Your estate planning package is complete. Congratulations!"
+    }
+  },
+  "payment": {
+    "title": "Complete Your Payment",
+    "subtitle": "One-time flat fee for your complete estate planning package",
+    "amount": "$1,500.00",
+    "what": "What's included:",
+    "secure": "Secure payment powered by Stripe",
+    "submit": "Pay $1,500",
+    "processing": "Processing...",
+    "success": "Payment successful!",
+    "error": "Payment failed. Please try again."
+  },
+  "questionnaire": {
+    "title": "Estate Planning Questionnaire",
+    "subtitle": "Please answer all questions as accurately as possible. This information will be used to prepare your legal documents.",
+    "progress": "Step {current} of {total}",
+    "next": "Next",
+    "back": "Back",
+    "submit": "Submit Questionnaire",
+    "saving": "Saving...",
+    "saved": "Progress saved",
+    "steps": {
+      "personal": "Personal Information",
+      "trust": "Trust Structure",
+      "beneficiaries": "Beneficiaries",
+      "assets": "Assets",
+      "poa": "Power of Attorney",
+      "healthcare": "Healthcare Directive",
+      "hipaa": "HIPAA Authorization",
+      "engagement": "Legal Services Agreement"
+    },
+    "personal": {
+      "title": "Personal Information",
+      "firstName": "First Name",
+      "middleName": "Middle Name (optional)",
+      "lastName": "Last Name",
+      "dob": "Date of Birth",
+      "ssn": "Last 4 digits of SSN (for identity verification only)",
+      "address": "Street Address",
+      "city": "City",
+      "state": "State",
+      "zip": "ZIP Code",
+      "phone": "Phone Number",
+      "email": "Email Address",
+      "maritalStatus": "Marital Status",
+      "maritalOptions": {
+        "single": "Single",
+        "married": "Married",
+        "divorced": "Divorced",
+        "widowed": "Widowed",
+        "domestic_partner": "Domestic Partner"
+      },
+      "spouseTitle": "Spouse / Partner Information",
+      "spouseFirst": "Spouse First Name",
+      "spouseLast": "Spouse Last Name",
+      "spouseDob": "Spouse Date of Birth",
+      "jointTrust": "Would you like to create a joint trust with your spouse/partner?"
+    },
+    "trust": {
+      "title": "Trust Structure",
+      "trustName": "Trust Name",
+      "trustNameHelp": "Default: '[Your Name] Revocable Living Trust dated [Date]'",
+      "successorTitle": "Successor Trustees",
+      "successorHelp": "These individuals will manage your trust if you become incapacitated or pass away",
+      "successorFirst": {
+        "label": "First Successor Trustee",
+        "name": "Full Name",
+        "relationship": "Relationship to You",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email"
+      },
+      "successorSecond": {
+        "label": "Second Successor Trustee (Backup)",
+        "name": "Full Name",
+        "relationship": "Relationship to You",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email"
+      }
+    },
+    "beneficiaries": {
+      "title": "Beneficiaries",
+      "primaryTitle": "Primary Beneficiaries",
+      "primaryHelp": "Percentages must total 100%",
+      "add": "Add Beneficiary",
+      "remove": "Remove",
+      "name": "Full Name",
+      "relationship": "Relationship",
+      "dob": "Date of Birth",
+      "percentage": "Percentage (%)",
+      "contingentTitle": "Contingent Beneficiaries",
+      "contingentHelp": "Receive assets if all primary beneficiaries predecease you",
+      "specificTitle": "Specific Bequests (Optional)",
+      "specificHelp": "Leave specific items or amounts to specific people",
+      "specificItem": "Item or Amount",
+      "specificRecipient": "Recipient Name",
+      "addSpecific": "Add Specific Bequest"
+    },
+    "assets": {
+      "title": "Assets to Fund the Trust",
+      "help": "List the assets you intend to transfer into your trust. Your attorney will guide you on how to retitle each one.",
+      "realEstate": "Real Estate (addresses)",
+      "bankAccounts": "Bank / Financial Accounts (institutions only, no account numbers)",
+      "investment": "Investment / Brokerage Accounts",
+      "business": "Business Interests",
+      "other": "Other Assets",
+      "vehicles": "Vehicles (make, model, year)"
+    },
+    "poa": {
+      "title": "Durable Power of Attorney",
+      "help": "Your agent will manage your financial and legal affairs if you become incapacitated",
+      "agent": {
+        "label": "Primary Agent",
+        "name": "Full Name",
+        "relationship": "Relationship",
+        "address": "Address",
+        "phone": "Phone",
+        "email": "Email"
+      },
+      "alternate": {
+        "label": "Alternate Agent",
+        "name": "Full Name",
+        "relationship": "Relationship",
+        "address": "Address",
+        "phone": "Phone"
+      },
+      "powers": "Powers to Grant",
+      "powersHelp": "Check all that apply",
+      "powersList": {
+        "banking": "Banking and financial management",
+        "realEstate": "Real estate transactions",
+        "tax": "Tax matters",
+        "business": "Business operations",
+        "gifts": "Making gifts",
+        "trusts": "Creating or amending trusts",
+        "litigation": "Legal proceedings"
+      }
+    },
+    "healthcare": {
+      "title": "Advance Health Care Directive",
+      "agent": {
+        "label": "Healthcare Agent",
+        "name": "Full Name",
+        "relationship": "Relationship",
+        "address": "Address",
+        "phone": "Phone"
+      },
+      "alternate": {
+        "label": "Alternate Healthcare Agent",
+        "name": "Full Name",
+        "relationship": "Relationship",
+        "phone": "Phone"
+      },
+      "directives": "Healthcare Directives",
+      "lifeSustaining": "Life-Sustaining Treatment",
+      "lifeSustainingOptions": {
+        "prolong": "Prolong life — use all available treatments",
+        "comfort": "Comfort care only — do not prolong dying",
+        "conditional": "Follow my agent's direction"
+      },
+      "artificialNutrition": "Artificial Nutrition and Hydration",
+      "artificialOptions": {
+        "yes": "Yes, provide if necessary",
+        "no": "No, do not provide",
+        "agent": "Follow my agent's direction"
+      },
+      "organDonation": "Organ Donation",
+      "organOptions": {
+        "yes": "Yes, donate all organs",
+        "limited": "Yes, limited to: ___",
+        "no": "No donation"
+      },
+      "additionalWishes": "Additional Wishes or Instructions (optional)"
+    },
+    "hipaa": {
+      "title": "HIPAA Authorization",
+      "help": "These individuals are authorized to access your protected health information",
+      "add": "Add Person",
+      "name": "Full Name",
+      "relationship": "Relationship",
+      "phone": "Phone"
+    },
+    "engagement": {
+      "title": "Legal Services Agreement",
+      "intro": "Please read this agreement carefully. It establishes the attorney-client relationship between you and {attorneyName} of {firmName}.",
+      "sections": {
+        "scope": {
+          "title": "Scope of Services",
+          "content": "Attorney agrees to prepare the following documents on behalf of Client: (1) Revocable Living Trust; (2) Durable Power of Attorney; (3) Advance Health Care Directive; (4) HIPAA Authorization; (5) Pour-Over Will; and (6) Certificate of Trust. Attorney will review the completed questionnaire, prepare draft documents, and revise based on Client feedback. Attorney's obligations are limited to the preparation and review of the above-listed documents."
+        },
+        "fees": {
+          "title": "Fees and Payment",
+          "content": "Client agrees to pay a flat fee of $1,500 for the complete estate planning package described herein. This fee is earned upon completion of the intake questionnaire and is non-refundable once document preparation has begun. The fee includes one round of revisions."
+        },
+        "relationship": {
+          "title": "Attorney-Client Relationship",
+          "content": "By signing below, Client acknowledges that an attorney-client relationship is established with {attorneyName}, licensed in the State of California (Bar No. {barNumber}). All communications between Attorney and Client are protected by attorney-client privilege."
+        },
+        "limitations": {
+          "title": "Limitations",
+          "content": "Attorney's services are limited to California law. This agreement does not include tax advice, financial planning, ongoing legal representation, probate administration, or trust administration after Client's death. Client is responsible for having documents properly executed (signed and notarized) and for funding the trust."
+        },
+        "confidentiality": {
+          "title": "Confidentiality",
+          "content": "Attorney will maintain strict confidentiality of all Client information in accordance with the California Rules of Professional Conduct."
+        }
+      },
+      "acknowledgments": {
+        "title": "Client Acknowledgments",
+        "read": "I have read and understand this Legal Services Agreement",
+        "attorney": "I understand that {attorneyName} is my attorney and this establishes an attorney-client relationship",
+        "fee": "I agree to pay the flat fee of $1,500 for the complete estate planning package",
+        "notarize": "I understand I am responsible for having my documents notarized and mailed back",
+        "california": "I understand these documents are prepared under California law",
+        "limitations": "I understand the limitations of services described above"
+      },
+      "signature": {
+        "title": "Electronic Signature",
+        "label": "Type your full legal name to sign:",
+        "placeholder": "Your full legal name",
+        "date": "Date",
+        "agree": "By typing my name above, I electronically sign this Legal Services Agreement"
+      }
+    }
+  },
+  "admin": {
+    "title": "Attorney Dashboard",
+    "cases": "All Cases",
+    "caseDetail": "Case Detail",
+    "search": "Search cases...",
+    "filter": "Filter by status",
+    "columns": {
+      "caseNumber": "Case #",
+      "client": "Client",
+      "status": "Status",
+      "created": "Created",
+      "updated": "Last Updated",
+      "actions": "Actions"
+    },
+    "actions": {
+      "review": "Review",
+      "approve": "Approve Documents",
+      "requestChanges": "Request Changes",
+      "markReceived": "Mark Docs Received",
+      "uploadExecuted": "Upload Executed Docs",
+      "sendToClient": "Mark Sent to Client",
+      "markUploaded": "Mark Uploaded to Dropbox",
+      "markBinderMailed": "Mark Binder Mailed"
+    },
+    "notes": {
+      "title": "Case Notes",
+      "add": "Add Note",
+      "placeholder": "Add a note or message to the client...",
+      "internal": "Internal note (not visible to client)",
+      "client": "Message to client",
+      "submit": "Add Note"
+    }
+  },
+  "footer": {
+    "tagline": "Professional estate planning, made accessible.",
+    "disclaimer": "The information on this website is for general informational purposes only and does not constitute legal advice. Use of this service does not create an attorney-client relationship until a Legal Services Agreement is signed.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "contact": "Contact"
+    },
+    "attorney": "Attorney services provided by {name}, {bar}",
+    "copyright": "© {year} EasyTrust. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred. Please try again.",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "required": "Required",
+    "optional": "Optional",
+    "success": "Success!"
+  }
+}

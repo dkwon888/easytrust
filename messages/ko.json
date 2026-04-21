@@ -1,0 +1,479 @@
+{
+  "nav": {
+    "home": "홈",
+    "howItWorks": "진행 방법",
+    "pricing": "비용",
+    "faq": "자주 묻는 질문",
+    "signIn": "로그인",
+    "getStarted": "시작하기",
+    "dashboard": "대시보드",
+    "signOut": "로그아웃"
+  },
+  "hero": {
+    "badge": "변호사 동반 유언대용신탁 서비스",
+    "title": "가족의 미래를 안전하게 보호하세요",
+    "subtitle": "캘리포니아 자격증 소지 변호사가 준비하는 취소 가능 생전 신탁 패키지 — 집에서 편하게 진행하세요.",
+    "cta": "신탁 패키지 시작하기",
+    "secondaryCta": "자세히 알아보기",
+    "features": {
+      "licensed": "캘리포니아 자격 변호사",
+      "bilingual": "영어 및 한국어 서비스",
+      "complete": "완전한 서류 패키지",
+      "secure": "안전하고 기밀"
+    }
+  },
+  "whatYouGet": {
+    "title": "완전한 유언 계획 패키지",
+    "subtitle": "자산을 보호하고 사랑하는 사람들을 위해 필요한 모든 것",
+    "documents": {
+      "trust": {
+        "name": "취소 가능 생전 신탁",
+        "desc": "유언 검인을 피하고 수익자에게 자산을 원활하게 이전"
+      },
+      "poa": {
+        "name": "지속적 대리인 위임장",
+        "desc": "귀하가 무능력자가 될 경우 재정을 관리할 사람을 지정"
+      },
+      "ahcd": {
+        "name": "사전 의료 지시서",
+        "desc": "의료 관련 소망을 명시하고 의료 대리인을 지정"
+      },
+      "hipaa": {
+        "name": "HIPAA 인가서",
+        "desc": "지정된 개인이 귀하의 의료 정보에 접근하도록 허가"
+      },
+      "will": {
+        "name": "이월 유언장",
+        "desc": "사망 시 신탁 외부의 자산이 신탁으로 이전되도록 보장"
+      },
+      "certificate": {
+        "name": "신탁 증명서",
+        "desc": "개인 정보를 공개하지 않고 신탁의 존재를 증명하는 요약 문서"
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "간단하고 안내된 절차",
+    "subtitle": "복잡한 부분은 저희가 처리하므로 중요한 것에 집중하세요",
+    "steps": {
+      "1": {
+        "title": "계정 생성 및 결제",
+        "desc": "안전하게 등록하고 일회성 정액 수수료를 납부하세요"
+      },
+      "2": {
+        "title": "설문지 작성",
+        "desc": "가족, 자산, 소망에 대한 안내 질문에 답하고 위임 계약서에 서명하세요"
+      },
+      "3": {
+        "title": "변호사 검토",
+        "desc": "변호사가 서류를 검토하고 맞춤화하거나 추가 정보를 요청합니다"
+      },
+      "4": {
+        "title": "서명 및 공증",
+        "desc": "패키지를 인쇄하고 공증인과 함께 서명한 후 선불 레이블로 반송하세요"
+      },
+      "5": {
+        "title": "바인더 수령",
+        "desc": "저희가 스캔하고 안전한 Dropbox에 업로드한 후 전문적으로 제본된 원본을 반송합니다"
+      }
+    }
+  },
+  "pricing": {
+    "title": "간단하고 투명한 가격",
+    "price": "$1,500",
+    "period": "일회성 정액 수수료",
+    "includes": "모두 포함:",
+    "features": [
+      "6개 문서 완전한 유언 계획 패키지",
+      "캘리포니아 자격 변호사 준비",
+      "변호사 검토 및 승인",
+      "접수 중 무제한 수정",
+      "선불 반송 배송 레이블",
+      "서류 스캔 및 안전한 Dropbox 업로드",
+      "전문적으로 제본된 원본 바인더 반송",
+      "영어 및 한국어 지원"
+    ],
+    "cta": "오늘 시작하기"
+  },
+  "faq": {
+    "title": "자주 묻는 질문",
+    "items": [
+      {
+        "q": "사무실에 방문해야 하나요?",
+        "a": "아니요. 전체 과정은 온라인과 우편으로 처리됩니다. 서류에 공증이 필요하며, 이를 안내해 드리겠습니다."
+      },
+      {
+        "q": "과정이 얼마나 걸리나요?",
+        "a": "설문지 완성부터 최종 바인더 수령까지 보통 2-4주가 걸립니다. 변호사 검토 시간과 공증 일정에 따라 달라질 수 있습니다."
+      },
+      {
+        "q": "실제 변호사-의뢰인 관계인가요?",
+        "a": "네. 캘리포니아 자격 변호사와 공식 변호사-의뢰인 관계를 설정하는 위임 계약서에 서명합니다. 모든 의사소통은 비밀이 보장됩니다."
+      },
+      {
+        "q": "제출 후 변경이 필요하면 어떻게 하나요?",
+        "a": "서류가 확정되기 전에 언제든지 변경을 요청할 수 있습니다. 변호사 검토 후 추가 정보가 필요하면 알려드립니다."
+      },
+      {
+        "q": "제 정보는 안전한가요?",
+        "a": "네. 모든 데이터는 암호화되며, 최종 서류는 귀하와만 공유된 비밀번호로 보호된 Dropbox 폴더에 저장됩니다."
+      },
+      {
+        "q": "한국어 서비스를 제공하나요?",
+        "a": "네. 접수 과정, 설문지, 의뢰인 의사소통 모두 한국어로 제공됩니다."
+      }
+    ]
+  },
+  "auth": {
+    "signIn": {
+      "title": "계정에 로그인",
+      "email": "이메일 주소",
+      "password": "비밀번호",
+      "submit": "로그인",
+      "noAccount": "계정이 없으신가요?",
+      "signUp": "회원가입",
+      "forgotPassword": "비밀번호를 잊으셨나요?"
+    },
+    "signUp": {
+      "title": "계정 만들기",
+      "name": "성명",
+      "email": "이메일 주소",
+      "password": "비밀번호",
+      "confirmPassword": "비밀번호 확인",
+      "submit": "계정 만들기",
+      "hasAccount": "이미 계정이 있으신가요?",
+      "signIn": "로그인",
+      "terms": "계정을 만들면 서비스 약관 및 개인정보 처리방침에 동의하는 것입니다."
+    }
+  },
+  "dashboard": {
+    "title": "나의 신탁 패키지",
+    "welcome": "환영합니다",
+    "caseNumber": "사건 번호",
+    "status": "현재 상태",
+    "progress": "진행 상황",
+    "nextStep": "다음 단계",
+    "steps": {
+      "ACCOUNT_CREATED": "계정 생성됨",
+      "PAYMENT_PENDING": "결제 대기 중",
+      "PAYMENT_COMPLETE": "결제 완료",
+      "QUESTIONNAIRE_IN_PROGRESS": "접수 진행 중",
+      "QUESTIONNAIRE_COMPLETE": "접수 완료",
+      "DOCUMENTS_GENERATING": "서류 생성 중",
+      "DOCUMENTS_GENERATED": "서류 검토 준비됨",
+      "ATTORNEY_REVIEW": "변호사 검토 중",
+      "CHANGES_REQUESTED": "변경 요청됨",
+      "ATTORNEY_APPROVED": "변호사 승인됨",
+      "SENT_TO_CLIENT": "귀하에게 패키지 발송됨",
+      "AWAITING_NOTARIZED_DOCS": "공증 서류 대기 중",
+      "DOCS_RECEIVED": "서류 수령됨",
+      "DOCS_SCANNED": "서류 스캔됨",
+      "DOCS_UPLOADED": "Dropbox에 서류 업로드됨",
+      "BINDER_MAILED": "바인더 발송됨",
+      "COMPLETE": "완료"
+    },
+    "actions": {
+      "pay": "결제 진행",
+      "startQuestionnaire": "설문지 시작",
+      "continueQuestionnaire": "설문지 계속",
+      "viewDocuments": "서류 보기",
+      "trackShipment": "배송 추적"
+    },
+    "messages": {
+      "ACCOUNT_CREATED": "계정이 설정되었습니다. 시작하려면 결제를 진행하세요.",
+      "PAYMENT_COMPLETE": "결제가 완료되었습니다. 접수 설문지를 작성해 주세요.",
+      "QUESTIONNAIRE_COMPLETE": "설문지가 제출되었습니다. 서류를 준비하고 있습니다.",
+      "ATTORNEY_REVIEW": "귀하의 서류가 변호사 검토 중입니다. 준비되면 알려드리겠습니다.",
+      "CHANGES_REQUESTED": "변호사가 추가 정보를 요청했습니다. 아래 메모를 확인해 주세요.",
+      "ATTORNEY_APPROVED": "귀하의 서류가 승인되어 곧 발송됩니다.",
+      "SENT_TO_CLIENT": "서류 패키지가 배송 중입니다! 공증인과 함께 서명하고 선불 레이블로 반송해 주세요.",
+      "AWAITING_NOTARIZED_DOCS": "공증된 서류를 기다리고 있습니다. 패키지에 포함된 선불 레이블을 사용하세요.",
+      "DOCS_RECEIVED": "공증된 서류를 수령했습니다. 처리 중입니다.",
+      "DOCS_UPLOADED": "실행된 서류가 안전한 Dropbox 폴더에 업로드되었습니다.",
+      "BINDER_MAILED": "전문 바인더가 배송 중입니다!",
+      "COMPLETE": "유언 계획 패키지가 완성되었습니다. 축하합니다!"
+    }
+  },
+  "payment": {
+    "title": "결제 완료",
+    "subtitle": "완전한 유언 계획 패키지에 대한 일회성 정액 수수료",
+    "amount": "$1,500.00",
+    "what": "포함 항목:",
+    "secure": "Stripe로 안전한 결제",
+    "submit": "$1,500 결제",
+    "processing": "처리 중...",
+    "success": "결제 성공!",
+    "error": "결제에 실패했습니다. 다시 시도해 주세요."
+  },
+  "questionnaire": {
+    "title": "유언 계획 설문지",
+    "subtitle": "모든 질문에 최대한 정확하게 답해 주세요. 이 정보는 법적 서류 준비에 사용됩니다.",
+    "progress": "{total}단계 중 {current}단계",
+    "next": "다음",
+    "back": "이전",
+    "submit": "설문지 제출",
+    "saving": "저장 중...",
+    "saved": "진행 상황 저장됨",
+    "steps": {
+      "personal": "개인 정보",
+      "trust": "신탁 구조",
+      "beneficiaries": "수익자",
+      "assets": "자산",
+      "poa": "대리인 위임장",
+      "healthcare": "의료 지시서",
+      "hipaa": "HIPAA 인가서",
+      "engagement": "법률 서비스 계약"
+    },
+    "personal": {
+      "title": "개인 정보",
+      "firstName": "이름",
+      "middleName": "중간 이름 (선택)",
+      "lastName": "성",
+      "dob": "생년월일",
+      "ssn": "SSN 마지막 4자리 (본인 확인 전용)",
+      "address": "주소",
+      "city": "도시",
+      "state": "주",
+      "zip": "우편번호",
+      "phone": "전화번호",
+      "email": "이메일 주소",
+      "maritalStatus": "결혼 상태",
+      "maritalOptions": {
+        "single": "미혼",
+        "married": "기혼",
+        "divorced": "이혼",
+        "widowed": "사별",
+        "domestic_partner": "동반자"
+      },
+      "spouseTitle": "배우자 / 동반자 정보",
+      "spouseFirst": "배우자 이름",
+      "spouseLast": "배우자 성",
+      "spouseDob": "배우자 생년월일",
+      "jointTrust": "배우자/동반자와 공동 신탁을 만들고 싶으신가요?"
+    },
+    "trust": {
+      "title": "신탁 구조",
+      "trustName": "신탁 이름",
+      "trustNameHelp": "기본값: '[귀하의 이름] 취소 가능 생전 신탁 (날짜)'",
+      "successorTitle": "후임 수탁자",
+      "successorHelp": "귀하가 무능력자가 되거나 사망할 경우 신탁을 관리할 사람",
+      "successorFirst": {
+        "label": "제1 후임 수탁자",
+        "name": "성명",
+        "relationship": "귀하와의 관계",
+        "address": "주소",
+        "phone": "전화번호",
+        "email": "이메일"
+      },
+      "successorSecond": {
+        "label": "제2 후임 수탁자 (예비)",
+        "name": "성명",
+        "relationship": "귀하와의 관계",
+        "address": "주소",
+        "phone": "전화번호",
+        "email": "이메일"
+      }
+    },
+    "beneficiaries": {
+      "title": "수익자",
+      "primaryTitle": "제1 수익자",
+      "primaryHelp": "백분율 합계는 100%이어야 합니다",
+      "add": "수익자 추가",
+      "remove": "삭제",
+      "name": "성명",
+      "relationship": "관계",
+      "dob": "생년월일",
+      "percentage": "비율 (%)",
+      "contingentTitle": "제2 수익자",
+      "contingentHelp": "모든 제1 수익자가 귀하보다 먼저 사망할 경우 자산을 받는 사람",
+      "specificTitle": "특정 유증 (선택)",
+      "specificHelp": "특정 물품이나 금액을 특정인에게 남기기",
+      "specificItem": "항목 또는 금액",
+      "specificRecipient": "수령인 이름",
+      "addSpecific": "특정 유증 추가"
+    },
+    "assets": {
+      "title": "신탁에 넣을 자산",
+      "help": "신탁으로 이전할 자산을 나열하세요. 변호사가 각 자산의 명의 변경 방법을 안내해 드립니다.",
+      "realEstate": "부동산 (주소)",
+      "bankAccounts": "은행 / 금융 계좌 (기관명만, 계좌번호 없음)",
+      "investment": "투자 / 증권 계좌",
+      "business": "사업체 지분",
+      "other": "기타 자산",
+      "vehicles": "차량 (제조사, 모델, 연도)"
+    },
+    "poa": {
+      "title": "지속적 대리인 위임장",
+      "help": "귀하가 무능력자가 될 경우 대리인이 재정 및 법적 업무를 관리합니다",
+      "agent": {
+        "label": "주 대리인",
+        "name": "성명",
+        "relationship": "관계",
+        "address": "주소",
+        "phone": "전화번호",
+        "email": "이메일"
+      },
+      "alternate": {
+        "label": "예비 대리인",
+        "name": "성명",
+        "relationship": "관계",
+        "address": "주소",
+        "phone": "전화번호"
+      },
+      "powers": "부여할 권한",
+      "powersHelp": "해당하는 모든 항목 선택",
+      "powersList": {
+        "banking": "은행 및 재정 관리",
+        "realEstate": "부동산 거래",
+        "tax": "세금 문제",
+        "business": "사업 운영",
+        "gifts": "선물 제공",
+        "trusts": "신탁 설립 또는 수정",
+        "litigation": "법적 절차"
+      }
+    },
+    "healthcare": {
+      "title": "사전 의료 지시서",
+      "agent": {
+        "label": "의료 대리인",
+        "name": "성명",
+        "relationship": "관계",
+        "address": "주소",
+        "phone": "전화번호"
+      },
+      "alternate": {
+        "label": "예비 의료 대리인",
+        "name": "성명",
+        "relationship": "관계",
+        "phone": "전화번호"
+      },
+      "directives": "의료 지시",
+      "lifeSustaining": "생명 유지 치료",
+      "lifeSustainingOptions": {
+        "prolong": "생명 연장 — 모든 가능한 치료 사용",
+        "comfort": "완화 치료만 — 죽음을 연장하지 않음",
+        "conditional": "대리인의 결정에 따름"
+      },
+      "artificialNutrition": "인공 영양 및 수분 공급",
+      "artificialOptions": {
+        "yes": "네, 필요하면 제공",
+        "no": "아니요, 제공하지 않음",
+        "agent": "대리인의 결정에 따름"
+      },
+      "organDonation": "장기 기증",
+      "organOptions": {
+        "yes": "네, 모든 장기 기증",
+        "limited": "네, 제한적으로: ___",
+        "no": "기증하지 않음"
+      },
+      "additionalWishes": "추가 소망이나 지시 (선택)"
+    },
+    "hipaa": {
+      "title": "HIPAA 인가서",
+      "help": "이 사람들은 귀하의 보호 건강 정보에 접근할 수 있습니다",
+      "add": "사람 추가",
+      "name": "성명",
+      "relationship": "관계",
+      "phone": "전화번호"
+    },
+    "engagement": {
+      "title": "법률 서비스 계약",
+      "intro": "이 계약서를 주의 깊게 읽어 주세요. 귀하와 {firmName}의 {attorneyName} 변호사 사이의 변호사-의뢰인 관계를 설정합니다.",
+      "sections": {
+        "scope": {
+          "title": "서비스 범위",
+          "content": "변호사는 의뢰인을 위해 다음 서류를 준비하기로 동의합니다: (1) 취소 가능 생전 신탁; (2) 지속적 대리인 위임장; (3) 사전 의료 지시서; (4) HIPAA 인가서; (5) 이월 유언장; (6) 신탁 증명서. 변호사는 완성된 설문지를 검토하고, 초안 서류를 준비하며, 의뢰인의 피드백을 바탕으로 수정합니다."
+        },
+        "fees": {
+          "title": "수수료 및 결제",
+          "content": "의뢰인은 위에 설명된 완전한 유언 계획 패키지에 대해 $1,500의 정액 수수료를 지불하기로 동의합니다. 이 수수료는 접수 설문지 완성 시 발생하며, 서류 준비가 시작되면 환불되지 않습니다."
+        },
+        "relationship": {
+          "title": "변호사-의뢰인 관계",
+          "content": "아래에 서명함으로써 의뢰인은 캘리포니아주 자격 변호사인 {attorneyName} (변호사 번호: {barNumber})와 변호사-의뢰인 관계가 설정됨을 인정합니다. 변호사와 의뢰인 간의 모든 의사소통은 변호사-의뢰인 특권으로 보호됩니다."
+        },
+        "limitations": {
+          "title": "제한 사항",
+          "content": "변호사의 서비스는 캘리포니아 법으로 제한됩니다. 이 계약은 세금 조언, 재정 계획, 지속적인 법적 대리, 유언 검인 관리, 또는 의뢰인 사망 후 신탁 관리를 포함하지 않습니다."
+        },
+        "confidentiality": {
+          "title": "비밀 보장",
+          "content": "변호사는 캘리포니아 직업 행동 규범에 따라 모든 의뢰인 정보의 엄격한 비밀을 유지합니다."
+        }
+      },
+      "acknowledgments": {
+        "title": "의뢰인 확인 사항",
+        "read": "이 법률 서비스 계약을 읽고 이해했습니다",
+        "attorney": "{attorneyName}이 나의 변호사이며 이것이 변호사-의뢰인 관계를 설정함을 이해합니다",
+        "fee": "완전한 유언 계획 패키지에 대해 $1,500의 정액 수수료를 지불하는 데 동의합니다",
+        "notarize": "서류를 공증받고 반송해야 할 책임이 있음을 이해합니다",
+        "california": "이 서류들이 캘리포니아 법에 따라 준비됨을 이해합니다",
+        "limitations": "위에 설명된 서비스 제한 사항을 이해합니다"
+      },
+      "signature": {
+        "title": "전자 서명",
+        "label": "서명하려면 법적 성명을 전체로 입력하세요:",
+        "placeholder": "법적 성명 전체",
+        "date": "날짜",
+        "agree": "위에 이름을 입력함으로써 이 법률 서비스 계약에 전자 서명합니다"
+      }
+    }
+  },
+  "admin": {
+    "title": "변호사 대시보드",
+    "cases": "모든 사건",
+    "caseDetail": "사건 상세",
+    "search": "사건 검색...",
+    "filter": "상태별 필터",
+    "columns": {
+      "caseNumber": "사건 번호",
+      "client": "의뢰인",
+      "status": "상태",
+      "created": "생성일",
+      "updated": "최근 업데이트",
+      "actions": "조치"
+    },
+    "actions": {
+      "review": "검토",
+      "approve": "서류 승인",
+      "requestChanges": "변경 요청",
+      "markReceived": "서류 수령 표시",
+      "uploadExecuted": "실행된 서류 업로드",
+      "sendToClient": "의뢰인에게 발송 표시",
+      "markUploaded": "Dropbox 업로드 표시",
+      "markBinderMailed": "바인더 발송 표시"
+    },
+    "notes": {
+      "title": "사건 메모",
+      "add": "메모 추가",
+      "placeholder": "메모 또는 의뢰인에게 전달할 메시지를 추가하세요...",
+      "internal": "내부 메모 (의뢰인에게 표시되지 않음)",
+      "client": "의뢰인에게 전달할 메시지",
+      "submit": "메모 추가"
+    }
+  },
+  "footer": {
+    "tagline": "전문적인 유언 계획, 접근하기 쉽게.",
+    "disclaimer": "이 웹사이트의 정보는 일반적인 정보 제공 목적으로만 제공되며 법적 조언을 구성하지 않습니다. 이 서비스를 이용해도 법률 서비스 계약서에 서명하기 전까지는 변호사-의뢰인 관계가 성립되지 않습니다.",
+    "links": {
+      "privacy": "개인정보 처리방침",
+      "terms": "서비스 약관",
+      "contact": "연락처"
+    },
+    "attorney": "법률 서비스 제공: {name}, {bar}",
+    "copyright": "© {year} EasyTrust. 모든 권리 보유."
+  },
+  "common": {
+    "loading": "로딩 중...",
+    "error": "오류가 발생했습니다. 다시 시도해 주세요.",
+    "save": "저장",
+    "cancel": "취소",
+    "confirm": "확인",
+    "close": "닫기",
+    "yes": "예",
+    "no": "아니요",
+    "required": "필수",
+    "optional": "선택",
+    "success": "성공!"
+  }
+}
